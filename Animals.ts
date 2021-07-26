@@ -9,26 +9,17 @@ export class Cat extends Animal {
   constructor(Name: string, Age?: number, Class?: Classification, Type?: Type) {
     super(Name, Class, Type, Age);
   }
-  talk(text: string) {
-    console.log(`[${this.Name}] ${text}`);
-  }
 }
 
 export class Dog extends Animal {
   constructor(Name: string, Age?: number, Class?: Classification, Type?: Type) {
     super(Name, Class, Type, Age);
   }
-  talk(text: string) {
-    console.log(`[${this.Name}] ${text}`);
-  }
 }
 
 export class Snake extends Animal {
   constructor(Name: string, Age?: number, Class?: Classification, Type?: Type) {
     super(Name, Class, Type, Age);
-  }
-  talk(text: string) {
-    console.log(`[${this.Name}] ${text}`);
   }
 
   bite(target: Person) {

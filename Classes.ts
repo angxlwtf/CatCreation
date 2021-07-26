@@ -7,6 +7,9 @@ export class Animal {
     readonly Type?: Type,
     readonly Age?: number
   ) {}
+  talk(text: string) {
+    console.log(`[${this.Name}] ${text}`);
+  }
 }
 
 export class Person {
