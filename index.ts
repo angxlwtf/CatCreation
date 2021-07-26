@@ -14,7 +14,7 @@ var rl = readline.createInterface({
 
 rl.question("\nPlease pick the name of new your cat!", function (answer) {
   if (answer != "") {
-    let cat = new Cat(answer);
+    let cat = new Cat(answer); // Change this to Dog, or Snake if you want to use a different pet (you can also make custom pets)
     cat.talk("Meow!");
     rl.close();
   }else{
